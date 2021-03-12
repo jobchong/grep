@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "jsdoc": "^3.6.6",
+    "mocha": "^8.3.1"
+  },
+  "name": "grep",
+  "description": "Grep implemented in Node",
+  "version": "1.0.0",
+  "main": "grep.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha",
+    "doc": "jsdoc grep.js"
+  },
+  "author": "Job Chong",
+  "license": "MIT"
+}
